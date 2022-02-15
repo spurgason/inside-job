@@ -1,0 +1,43 @@
+.current-weather-container {
+  margin-top: 40px;
+  display: flex;
+  color: #fff;
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+
+    .temp {
+        color: #ffc107;
+    }
+
+    ul {
+      list-style: none;
+      font-size: 20px;
+    }
+  }
+
+  .right {
+    flex: 0.5;
+    display: flex;
+    justify-content: end;
+
+    .location-details {
+      list-style: none;
+      text-align: end;
+
+      #location {
+        font-size: 35px;
+      }
+
+      #date {
+        font-size: 25px;
+      }
+
+      #description {
+        font-size: 20px;
+      }
+    }
+  }
+}
